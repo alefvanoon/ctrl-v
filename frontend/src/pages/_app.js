@@ -23,7 +23,6 @@ const App = ({ Component, pageProps }) => (
       <link rel="icon" href="/favicon.png" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <title>ctrl-v | a modern, open-source pastebin</title>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-DE1TYY2F24" />
       <script
         dangerouslySetInnerHTML={{
           __html: `
