@@ -7,7 +7,7 @@ import { useClipboard } from 'use-clipboard-copy';
 import {Button} from "../Common/Button";
 
 const PasteModal = (props) => {
-    const fullURL = `https://ctrl-v.app/${props.hash}`;
+    const fullURL = `https://bin.alefvanoon.xyz/${props.hash}`;
     const clipboard = useClipboard({ copiedTimeout: 3000 });
     Modal.setAppElement('body');
     const router = useRouter()
